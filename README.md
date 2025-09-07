@@ -99,8 +99,8 @@ def main() -> None:
 
 1.Клонируйте репозиторий:
 
-git clone https://github.com/ваш_логин/название_проекта.git
-cd название_проекта
+git clone https://github.com/SHVED-lab/telegram-bot-project.git
+
 
 
 2.Установите зависимости:
