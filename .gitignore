@@ -1,7 +1,13 @@
-# Ignore a specific file
-.env
+# Ігнорування файлів та папок, які генеруються автоматично Python
+__pycache__/
+*.pyc
+*.pyo
 
-# Ignore other files and directories, for example:
-# .vscode/
-# __pycache__/
-# *.log
+# Ігнорування файлів, які створюються в процесі роботи
+*.backup
+*.save
+nohup.out
+database.db
+
+# Ігнорування файлу зі змінними оточення
+.env
